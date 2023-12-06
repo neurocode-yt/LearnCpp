@@ -1,0 +1,47 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    //arithmetic operators
+    // + - * / % ++ --
+    int num1 = 10;
+    int num2 = 5;
+
+    cout<<"Addition:       "<< num1 + num2<<endl;
+    cout<<"Subtraction:    "<< num1 - num2<<endl;
+    cout<<"Multiplication: "<<num1 * num2<<endl;
+    cout<<"Division:       "<< num1/num2<<endl;
+    cout<<"Modulus:        "<< num1%num2<<endl;
+    
+    //Increment 
+    //there are two methods
+    //1. ++ after variable
+    cout<<"num1-- :        "<< num1-- <<endl;
+    cout<<"value in num1 : "<< num1 <<endl;
+    //2. ++ before variable
+    cout<<"++num2 :        "<< ++num2<<endl;
+    cout<<"value in num1 : "<< num2 <<endl;
+    
+    
+    //Decrement 
+    //there are two methods
+    //1. -- after variable
+    cout<<"num1-- :        "<< num1-- <<endl;
+    cout<<"value in num1 : "<< num1 <<endl;
+    //2. -- before variable
+    cout<<"--num2 :        "<< --num2<<endl;
+    cout<<"value in num1 : "<< num2 <<endl;
+
+    
+     //x++ is same as x = x+1
+     //x-- is same as x = x-1
+     
+     
+//   ~~OPTIONAL~~
+     num1+=10; //same as num1 = num1 + 10
+     cout<<"num1+=10 : "<<num1<<endl;
+
+    return 0;
+}
